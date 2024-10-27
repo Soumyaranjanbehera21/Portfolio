@@ -3,6 +3,8 @@ body{
   background-image: url("./assets/imgs/txt0.png");
 }
 
+@import url("font/gopher/stylesheet.css");
+
 *{
   margin: 0;
 }
@@ -21,8 +23,7 @@ body{
 .logo{
   font-size: 20px;
   width: 134px;
-  font-family: louis george cafe;
-  font-weight: bold;
+  font-family: "sen";
   font-style: italic;
   margin-bottom: none;
   margin-top: none;
@@ -66,7 +67,6 @@ li {
 .basic{
   padding-left: 80px;
   display: flex;
-
 }
 
 .role,
@@ -92,11 +92,25 @@ li {
   font-weight: 700;
   width: 73px;
 }
-.desg,
-.mean{
-  font-family: "louis george cafe";
+
+.titt,
+.sub{
+  font-family: "gopher";
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.desg{
+  font-family: "sen";
   font-size: 20px;
-  color: #2E2F2A;
+  color: #161616;
+}
+
+.mean{
+  font-family: "sen";
+  font-size: 20px;
+  color: #161616;
+  
 }
 
 .mean{
@@ -113,5 +127,269 @@ li {
 }
 
 .ul{
+  font-weight: 600;
+  opacity: 100%;
+}
+
+.exp{
+  margin-top: 80px;
+  margin-bottom: 40px;
+  display: flex;
+  padding-left: 80px;
+}
+
+.users{
+  display: flex;
+  gap: 60px;
+  margin-left: 80px;
+}
+
+.frank{
+  width: 145px;
+  height: 145px;
+  object-fit: cover;
+  border: 1.5px solid #E6B91E;
+  box-shadow: 6px 6px #E6B91E;
+}
+
+.info{
+  display: flex;
+  gap: 16px;
+  padding: 44px 36px 44px 36px;
+  border: 3px solid #E6B91E;
+  box-shadow: 6px 6px #E6B91E;
+}
+
+.intro,
+.cap{
+  color: #161616;
+  font-family: "sen";
+  font-size: 20px;
+  font-style: normal;
+  line-height: 180%;
+  width: 300px;
+}
+.cap{
+  font-weight: bold;
+  background-color: #E6B91E;
+}
+
+.pains{
+  color: #161616;
+  font-family: "sen";
+  font-size: 20px;
+  font-style: normal;
+  line-height: 130%;
+  width: 570px;
+  padding: 32px 32px 38px 32px;
+  border: 3px solid #E6B91E;
+  box-shadow: 6px 6px #E6B91E;
+}
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.spc{
+  margin-left: 80px;
+}
+
+.exp2{
+  margin-bottom: 40px;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.sub{
+  font-size: 20px;
+  color: #2E2F2A;
+}
+
+.type{
+  display: flex;
+  gap: 192px;
+}
+
+.font1,
+.font2{
+  padding: 36px 50px 36px 50px;
+  background-color: #E6B91E;
+  border: 2px solid #000;
+  box-shadow: 10px 10px #000;
+}
+
+.allg{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.font{
+  font-family: "GT Walsheim Pro";
+  font-size: 52px;
+  font-weight: 500;
+}
+.a{
+  font-family: "GT Walsheim Pro";
+  font-size: 16px;
+}
+.bd{
+  font-size: 16px;
+  font-weight: 500;
+}
+.b,.c{
+  font-family: "GT Walsheim Pro";
+  font-size: 18px;
+}
+
+.fontt{
+  font-family: "sen";
+  font-size: 52px;
+  font-weight: bold;
+}
+.aa{
+  font-family: "sen";
+  font-size: 16px;
+}
+.bdd{
+  font-weight: bold;
+}
+.bb,.cc{
+  font-family: "sen";
+  font-size: 18px;
+}
+
+.palette{
+  margin: 80px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+}
+
+.color-box {
+  width: 360px;
+  height: 200px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+}
+
+.wh,
+.bl{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 14px;
+  color: #fff;
+  font-family: "sen";
+}
+.bl{
+  color: #000;
+  font-weight: bold;
+}
+
+.yellow {
+  background-color: #e6b91e;
+  color: #000;
+}
+
+.black {
+  background-color: #000000;
+}
+
+.white {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.dark-gray {
+  background-color: #2d2d2d;
+}
+
+.blue {
+  background-color: #5799ef;
+}
+
+.gray {
+  background-color: #1f1f1f;
+}
+
+
+/* footer section */
+.footer{
+  background-color: #2AA060;
+  width: 100%;
+  height: 400px;
+  margin-top: 100px;
+}
+
+.style{
+  font-family: "sen";
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+}
+.style:hover{
   text-decoration: underline;
+}
+
+.bar{
+  margin: 0px;
+  font-family: "sen";
+  font-size: 16px;
+  font-weight: 550;
+  color: #E8EAD4;
+}
+
+.pages,
+.contact,
+.social{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.page,
+.contac,
+.socia{
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.links{
+  display: flex;
+  gap: 100px;
+  margin-left: 850px;
+}
+
+.connect{
+  font-family: "Gopher";
+  color: #fff;
+  font-size: 48px;
+  font-weight: bolder;
+  margin-left: 20px;
+  padding-top: 15px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.credit{
+  font-family: "sen";
+  font-size: 16px;
+  color: #FFF;
+  margin-left: 20px;
+  margin-top: 80px;
 }

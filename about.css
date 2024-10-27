@@ -3,6 +3,8 @@ body{
   background-image: url("./assets/imgs/txt0.png");
 }
 
+@import url("font/gopher/stylesheet.css");
+
 *{
   margin: 0;
 }
@@ -21,8 +23,7 @@ body{
 .logo{
   font-size: 20px;
   width: 134px;
-  font-family: louis george cafe;
-  font-weight: bold;
+  font-family: "sen";
   font-style: italic;
   margin-bottom: none;
   margin-top: none;
@@ -68,7 +69,7 @@ li {
 
 .greet{
   color: #000;
-  font-family: "Louis George Cafe";
+  font-family: "sen";
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -89,7 +90,7 @@ li {
 
 .info{
   color: #000;
-  font-family: "Louis George Cafe";
+  font-family: "sen";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -100,7 +101,7 @@ li {
 
 .info2{
   color: #000;
-  font-family: "Louis George Cafe";
+  font-family: "sen";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -124,7 +125,7 @@ li {
   color: #FFF;
   margin-left: none;
   margin-right: none;
-  font-family: "Louis George Cafe";
+  font-family: "sen";
   font-size: 20px;
   font-weight: 400;
   line-height: 138.803%; /* 27.761px */
@@ -149,17 +150,19 @@ li {
   text-align: center;
 }
 
-.align,
-.align2{
+.gap{
   margin-top: 60px;
   margin-left: 180px;
   margin-right: 180px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 60px;
 }
 
+.align,
 .align2{
-  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .skill-sec{
@@ -170,6 +173,11 @@ li {
 .tool{
   width: 100px;
   height: 100px;
+}
+.tool:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 .hobb{
@@ -206,10 +214,9 @@ li {
   padding-bottom: 42px;
   padding-left: 90px;
   padding-right: 90px;
-  font-family: "louis george cafe";
+  font-family: "sen";
   font-style: italic;
   font-size: 18px;
-  font-weight: 500;
   width: 750px;
   height: 90px;
   border: 2px solid #000;
@@ -235,9 +242,8 @@ li {
 }
 
 .style{
-  font-family: "Louis George Cafe";
+  font-family: "sen";
   font-size: 18px;
-  font-weight: bold;
   text-decoration: none;
   color: #fff;
 }
@@ -247,7 +253,7 @@ li {
 
 .bar{
   margin: 0px;
-  font-family: "Louis George Cafe";
+  font-family: "sen";
   font-size: 16px;
   font-weight: 550;
   color: #E8EAD4;
@@ -283,28 +289,13 @@ li {
   margin-left: 20px;
   padding-top: 15px;
   margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 .credit{
-  font-family: "Louis George Cafe";
+  font-family: "sen";
   font-size: 16px;
   color: #FFF;
   margin-left: 20px;
-  margin-top: 110px;
-}
-
-@media only screen and (max-width: 520px){
-  .logo{
-    font-size: 48px;
-    width: 134px;
-    font-family: "poppins";
-    font-weight: bold;
-    font-style: italic;
-  }
-
-  .quote{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #000;
-    background-color: #ECE757;
-  }
+  margin-top: 80px;
 }

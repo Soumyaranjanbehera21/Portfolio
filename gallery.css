@@ -1,5 +1,6 @@
 body{
   background-color: #E8EAD4;
+  background-image: url("./assets/imgs/txt0.png");
 }
 
 *{
@@ -125,6 +126,7 @@ li {
   margin-left: 20px;
   padding-top: 15px;
   margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 .credit{
@@ -132,5 +134,5 @@ li {
   font-size: 16px;
   color: #FFF;
   margin-left: 20px;
-  margin-top: 62px;
+  margin-top: 80px;
 }
