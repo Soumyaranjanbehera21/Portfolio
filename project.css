@@ -112,10 +112,10 @@ li {
 
 .up{
   color: #000;
-  font-family: "sen";
+  font-family: "gopher";
   font-size: 48px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
   margin: 35px 0px 0px 37px;
 }
@@ -188,7 +188,7 @@ li {
 
 .links{
   display: flex;
-  gap: 100px;
+  gap: 60px;
   margin-left: 850px;
 }
 

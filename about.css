@@ -126,9 +126,8 @@ li {
   margin-left: none;
   margin-right: none;
   font-family: "sen";
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 138.803%; /* 27.761px */
+  font-size: 18px;
+  line-height: 138.803%;
   padding-top: 162px;
   padding-bottom: 162px;
   padding-left: 116px;
@@ -277,7 +276,7 @@ li {
 
 .links{
   display: flex;
-  gap: 100px;
+  gap: 60px;
   margin-left: 850px;
 }
 

@@ -21,7 +21,7 @@ body{
 }
 
 .logo{
-  font-size: 20px;
+  font-size: 18px;
   width: 134px;
   font-family: "sen";
   font-style: italic;
@@ -54,8 +54,7 @@ li {
   background-color: #E6B91E;
   width: 1130px;
   height: 420px;
-  border-radius: 20px;
-  transform: scale(1.1);
+  border-radius: 18px;
 }
 
 .slice{
@@ -102,13 +101,13 @@ li {
 
 .desg{
   font-family: "sen";
-  font-size: 20px;
+  font-size: 18px;
   color: #161616;
 }
 
 .mean{
   font-family: "sen";
-  font-size: 20px;
+  font-size: 18px;
   color: #161616;
   
 }
@@ -164,7 +163,7 @@ li {
 .cap{
   color: #161616;
   font-family: "sen";
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   line-height: 180%;
   width: 300px;
@@ -177,7 +176,7 @@ li {
 .pains{
   color: #161616;
   font-family: "sen";
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   line-height: 130%;
   width: 570px;
@@ -205,7 +204,7 @@ li {
 }
 
 .sub{
-  font-size: 20px;
+  font-size: 18px;
   color: #2E2F2A;
 }
 
@@ -276,7 +275,7 @@ li {
 .color-box {
   width: 360px;
   height: 200px;
-  border-radius: 20px;
+  border-radius: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -371,7 +370,7 @@ li {
 
 .links{
   display: flex;
-  gap: 100px;
+  gap: 60px;
   margin-left: 850px;
 }
 
@@ -380,7 +379,7 @@ li {
   color: #fff;
   font-size: 48px;
   font-weight: bolder;
-  margin-left: 20px;
+  margin-left: 18px;
   padding-top: 15px;
   margin-top: 0px;
   margin-bottom: 30px;
@@ -390,6 +389,6 @@ li {
   font-family: "sen";
   font-size: 16px;
   color: #FFF;
-  margin-left: 20px;
+  margin-left: 18px;
   margin-top: 80px;
 }
