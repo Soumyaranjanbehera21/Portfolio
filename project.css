@@ -21,9 +21,9 @@ body{
 }
 
 .logo{
-  font-size: 20px;
+  font-size: 16px;
   width: 134px;
-  font-family: "sen";
+  font-family: "Space Grotesk";
   font-style: italic;
   margin-bottom: none;
   margin-top: none;
@@ -42,8 +42,8 @@ li {
 .prjt-in{
   display: flex;
   justify-content: center;
-  margin-top: 70px;
-  margin-bottom: 150px;
+  margin-top: 60px;
+  margin-bottom: 160px;
 }
 
 .intro-div{
@@ -89,24 +89,27 @@ li {
 .imdb{
   width: 1091px;
   height: 529px;
-  border: 2px solid #000;
+  /* border: 2px solid #000; */
   background-color: #fff;
   display: flex;
   gap: 72px;
+  transform: scale(0.94);
 }
 
 .upfi:hover{
   background-color: #72E1CD;
   box-shadow: 12px 12px #1b1b1b;
-  transform: scale(1.05);
+  transform: scale(0.98);
   transition: all 0.5s;
+  border: none;
 }
 
 .imdb:hover{
   background-color: #E6C342;
   box-shadow: 12px 12px #1b1b1b;
-  transform: scale(1.05);
+  transform: scale(0.98);
   transition: all 0.5s;
+  border: none;
 }
 
 
@@ -122,7 +125,7 @@ li {
 
 .up-info{
   color: #3A3A3A;
-  font-family: "sen";
+  font-family: "Space Grotesk";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -153,7 +156,7 @@ li {
 }
 
 .style{
-  font-family: "sen";
+  font-family: "Space Grotesk";
   font-size: 18px;
   text-decoration: none;
   color: #fff;
@@ -164,7 +167,7 @@ li {
 
 .bar{
   margin: 0px;
-  font-family: "sen";
+  font-family: "Space Grotesk";
   font-size: 16px;
   font-weight: 550;
   color: #E8EAD4;
@@ -204,7 +207,7 @@ li {
 }
 
 .credit{
-  font-family: "sen";
+  font-family: "Space Grotesk";
   font-size: 16px;
   color: #FFF;
   margin-left: 20px;

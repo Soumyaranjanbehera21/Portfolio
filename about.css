@@ -21,9 +21,9 @@ body{
 }
 
 .logo{
-  font-size: 20px;
+  font-size: 16px;
   width: 134px;
-  font-family: "sen";
+  font-family: "Space Grotesk";
   font-style: italic;
   margin-bottom: none;
   margin-top: none;
@@ -69,10 +69,10 @@ li {
 
 .greet{
   color: #000;
-  font-family: "sen";
+  font-family: "Space Grotesk";
   font-size: 24px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: normal;
   margin-bottom: 10px;
 }
@@ -90,23 +90,23 @@ li {
 
 .info{
   color: #000;
-  font-family: "sen";
+  font-family: "Space Grotesk";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  width: 580px;
+  width: 630px;
   height: 80px;
 }
 
 .info2{
   color: #000;
-  font-family: "sen";
+  font-family: "Space Grotesk";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  width: 580px;
+  width: 630px;
   height: 80px;
   margin-top: 20px;
 }
@@ -117,7 +117,7 @@ li {
 }
 
 .qt{
-  height: 50px;
+  height: 40px;
 }
 
 .quote{
@@ -125,7 +125,7 @@ li {
   color: #FFF;
   margin-left: none;
   margin-right: none;
-  font-family: "sen";
+  font-family: "Space Grotesk";
   font-size: 18px;
   line-height: 138.803%;
   padding-top: 162px;
@@ -135,7 +135,7 @@ li {
   max-width: 100%;
   height: 112px;
   display: flex;
-  gap: 30px;
+  gap: 40px;
 }
 
 .skill,
@@ -188,19 +188,19 @@ li {
 }
 
 .pic{
-  height: 176px;
-  width: 176px;
+  height: 150px;
+  width: 150px;
 }
 
 .thing1{
   display: flex;
-  gap: 80px;
+  gap: 40px;
   justify-content: center;
 }
 
 .thing2{
   display: flex;
-  gap: 80px;
+  gap: 40px;
   justify-content: center; 
   flex-direction: row-reverse;
 }
@@ -209,13 +209,13 @@ li {
 .exp1{
   background-color: #2AA060;
   color: #fff;
-  padding-top: 42px;
-  padding-bottom: 42px;
-  padding-left: 90px;
-  padding-right: 90px;
-  font-family: "sen";
+  padding-top: 28px;
+  padding-bottom: 28px;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-family: "Space Grotesk";
   font-style: italic;
-  font-size: 18px;
+  font-size: 16px;
   width: 750px;
   height: 90px;
   border: 2px solid #000;
@@ -241,7 +241,7 @@ li {
 }
 
 .style{
-  font-family: "sen";
+  font-family: "Space Grotesk";
   font-size: 18px;
   text-decoration: none;
   color: #fff;
@@ -252,7 +252,7 @@ li {
 
 .bar{
   margin: 0px;
-  font-family: "sen";
+  font-family: "Space Grotesk";
   font-size: 16px;
   font-weight: 550;
   color: #E8EAD4;
@@ -292,7 +292,7 @@ li {
 }
 
 .credit{
-  font-family: "sen";
+  font-family: "Space Grotesk";
   font-size: 16px;
   color: #FFF;
   margin-left: 20px;

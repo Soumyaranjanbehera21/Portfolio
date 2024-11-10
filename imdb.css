@@ -21,9 +21,9 @@ body{
 }
 
 .logo{
-  font-size: 18px;
+  font-size: 16px;
   width: 134px;
-  font-family: "sen";
+  font-family: "Space Grotesk";
   font-style: italic;
   margin-bottom: none;
   margin-top: none;
@@ -52,9 +52,9 @@ li {
   gap: 82px;
   flex-direction: row;
   background-color: #E6B91E;
-  width: 1130px;
-  height: 420px;
-  border-radius: 18px;
+  width: 1110px;
+  height: 415px;
+  border-radius: 16px;
 }
 
 .slice{
@@ -78,11 +78,11 @@ li {
 }
 
 .role{
-  padding-right: 290px;
+  padding-right: 260px;
 }
 
 .dur{
-  padding-right: 450px;
+  padding-right: 390px;
 }
 
 .tit{
@@ -98,22 +98,21 @@ li {
   font-size: 32px;
   font-weight: 700;
 }
+.titt{
+  margin-top: 80px;
+}
 
 .desg{
-  font-family: "sen";
-  font-size: 18px;
+  font-family: "Space Grotesk";
+  font-size: 16px;
   color: #161616;
 }
 
 .mean{
-  font-family: "sen";
-  font-size: 18px;
+  font-family: "Space Grotesk";
+  font-size: 16px;
   color: #161616;
-  
-}
-
-.mean{
-  width: 980px;
+  width: 860px;
   line-height: 130%;
 }
 
@@ -121,7 +120,7 @@ li {
   margin-top: 80px;
   margin-bottom: 80px;
   display: flex;
-  gap: 190px;
+  gap: 168px;
   padding-left: 80px;
 }
 
@@ -131,8 +130,8 @@ li {
 }
 
 .exp{
-  margin-top: 80px;
-  margin-bottom: 40px;
+  margin-top: -80px;
+  margin-bottom: 33px;
   display: flex;
   padding-left: 80px;
 }
@@ -154,7 +153,7 @@ li {
 .info{
   display: flex;
   gap: 16px;
-  padding: 44px 36px 44px 36px;
+  padding: 42px 36px 42px 36px;
   border: 3px solid #E6B91E;
   box-shadow: 6px 6px #E6B91E;
 }
@@ -162,11 +161,11 @@ li {
 .intro,
 .cap{
   color: #161616;
-  font-family: "sen";
-  font-size: 18px;
+  font-family: "Space Grotesk";
+  font-size: 16px;
   font-style: normal;
-  line-height: 180%;
-  width: 300px;
+  line-height: 220%;
+  width: 260px;
 }
 .cap{
   font-weight: bold;
@@ -175,12 +174,12 @@ li {
 
 .pains{
   color: #161616;
-  font-family: "sen";
-  font-size: 18px;
+  font-family: "Space Grotesk";
+  font-size: 16px;
   font-style: normal;
-  line-height: 130%;
-  width: 570px;
-  padding: 32px 32px 38px 32px;
+  line-height: 145%;
+  width: 460px;
+  padding: 40px 32px 40px 32px;
   border: 3px solid #E6B91E;
   box-shadow: 6px 6px #E6B91E;
 }
@@ -188,98 +187,60 @@ li {
 .cards{
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 86px;
 }
 
-.spc{
+.spc,
+.spc2{
+  margin-top: 200px;
   margin-left: 80px;
+  margin-right: 80px;
+}
+.spc2{
+  margin-top: 0;
 }
 
 .exp2{
   margin-bottom: 40px;
-  display: flex;
   display: flex;
   flex-direction: column;
   gap: 36px;
 }
 
 .sub{
-  font-size: 18px;
+  font-size: 16px;
   color: #2E2F2A;
 }
 
-.type{
+.typo-allgn{
   display: flex;
-  gap: 192px;
+  gap: 72px;
 }
 
-.font1,
-.font2{
-  padding: 36px 50px 36px 50px;
-  background-color: #E6B91E;
-  border: 2px solid #000;
+.typo{
+  width: 510px;
   box-shadow: 10px 10px #000;
-}
-
-.allg{
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.font{
-  font-family: "GT Walsheim Pro";
-  font-size: 52px;
-  font-weight: 500;
-}
-.a{
-  font-family: "GT Walsheim Pro";
-  font-size: 16px;
-}
-.bd{
-  font-size: 16px;
-  font-weight: 500;
-}
-.b,.c{
-  font-family: "GT Walsheim Pro";
-  font-size: 18px;
-}
-
-.fontt{
-  font-family: "sen";
-  font-size: 52px;
-  font-weight: bold;
-}
-.aa{
-  font-family: "sen";
-  font-size: 16px;
-}
-.bdd{
-  font-weight: bold;
-}
-.bb,.cc{
-  font-family: "sen";
-  font-size: 18px;
 }
 
 .palette{
   margin: 80px;
+  margin-bottom: 0;
 }
 
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 80px;
+  gap: 40px;
 }
 
 .color-box {
-  width: 360px;
+  width: 340px;
   height: 200px;
-  border-radius: 18px;
+  border-radius: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   color: #fff;
   position: relative;
@@ -292,7 +253,7 @@ li {
   right: 10px;
   font-size: 14px;
   color: #fff;
-  font-family: "sen";
+  font-family: "Space Grotesk";
 }
 .bl{
   color: #000;
@@ -325,6 +286,32 @@ li {
   background-color: #1f1f1f;
 }
 
+.designs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+
+.navs{
+  width: 900px;
+}
+
+.points{
+  font-family: "space grotesk";
+  font-size: 16px;
+}
+
+.card{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards{
+  height: 350px;
+}
+
 
 /* footer section */
 .footer{
@@ -335,8 +322,8 @@ li {
 }
 
 .style{
-  font-family: "sen";
-  font-size: 18px;
+  font-family: "Space Grotesk";
+  font-size: 16px;
   text-decoration: none;
   color: #fff;
 }
@@ -346,7 +333,7 @@ li {
 
 .bar{
   margin: 0px;
-  font-family: "sen";
+  font-family: "Space Grotesk";
   font-size: 16px;
   font-weight: 550;
   color: #E8EAD4;
@@ -379,16 +366,16 @@ li {
   color: #fff;
   font-size: 48px;
   font-weight: bolder;
-  margin-left: 18px;
+  margin-left: 16px;
   padding-top: 15px;
   margin-top: 0px;
   margin-bottom: 30px;
 }
 
 .credit{
-  font-family: "sen";
+  font-family: "Space Grotesk";
   font-size: 16px;
   color: #FFF;
-  margin-left: 18px;
+  margin-left: 16px;
   margin-top: 80px;
 }
