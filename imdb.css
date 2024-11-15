@@ -1,9 +1,10 @@
+@import url("font/gopher/stylesheet.css");
+
 body{
   background-color: #E8EAD4;
   background-image: url("./assets/imgs/txt0.png");
+  font: gopher;
 }
-
-@import url("font/gopher/stylesheet.css");
 
 *{
   margin: 0;
