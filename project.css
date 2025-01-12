@@ -10,8 +10,8 @@ body{
 }
 
 .navbar{
-  margin-left: 40px;
-  margin-top: 30px;
+  margin-left: 3.2%;
+  margin-top: 2.4%;
 }
 
 .navdiv{
@@ -20,19 +20,10 @@ body{
   justify-content: space-between;
 }
 
-.logo{
-  font-size: 16px;
-  width: 134px;
-  font-family: "Space Grotesk";
-  font-style: italic;
-  margin-bottom: none;
-  margin-top: none;
-}
-
 li {
   list-style: none;
   display: inline-block;
-  margin-right: 52px;
+  margin-right: 8.9vh;
 }
 
 .btn{
@@ -42,7 +33,7 @@ li {
 .prjt-in{
   display: flex;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 50px;
   margin-bottom: 160px;
 }
 
@@ -108,10 +99,10 @@ li {
   background-color: #E6C342;
   box-shadow: 12px 12px #1b1b1b;
   transform: scale(0.98);
-  transition: all 0.5s;
+  transition: ease-in 0.5s;
+  transition: ease-out 0.5s;
   border: none;
 }
-
 
 .up{
   color: #000;
@@ -212,4 +203,12 @@ li {
   color: #FFF;
   margin-left: 20px;
   margin-top: 80px;
+}
+
+@media screen and (max-device-width: 425px){
+
+}
+
+@media screen and (max-device-width: 375px){
+
 }

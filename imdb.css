@@ -11,8 +11,8 @@ body{
 }
 
 .navbar{
-  margin-left: 40px;
-  margin-top: 30px;
+  margin-left: 3.2%;
+  margin-top: 2.4%;
 }
 
 .navdiv{
@@ -21,19 +21,10 @@ body{
   justify-content: space-between;
 }
 
-.logo{
-  font-size: 16px;
-  width: 134px;
-  font-family: "Space Grotesk";
-  font-style: italic;
-  margin-bottom: none;
-  margin-top: none;
-}
-
 li {
   list-style: none;
   display: inline-block;
-  margin-right: 52px;
+  margin-right: 8.9vh;
 }
 
 .btn{
@@ -43,7 +34,7 @@ li {
 .landing{
   display: flex;
   justify-content: center;
-  margin-top: 72px;
+  margin-top: 52px;
 }
 
 .land{
@@ -56,16 +47,17 @@ li {
   width: 1110px;
   height: 415px;
   border-radius: 16px;
+  border: 1.33px solid #000;
 }
 
 .slice{
   width: 474px;
   height: 332px;
-  box-shadow: 0px 0px 8px 2px #0E0E0E;
+  box-shadow: 0px 0px 6px 1px #0E0E0E;
 }
 
 .basic{
-  padding-left: 80px;
+  padding-left: 6.34%;
   display: flex;
 }
 
@@ -74,23 +66,23 @@ li {
 .tool{
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  margin-top: 50px;
+  gap: 1.8vh;
+  margin-top: 4.2%;
 }
 
 .role{
-  padding-right: 260px;
+  padding-right: 22%;
 }
 
 .dur{
-  padding-right: 390px;
+  padding-right: 32%;
 }
 
 .tit{
   font-family: "gopher";
   font-size: 32px;
   font-weight: 700;
-  width: 73px;
+  width: 6.2%;
 }
 
 .titt,
@@ -100,7 +92,7 @@ li {
   font-weight: 700;
 }
 .titt{
-  margin-top: 80px;
+  margin-top: 6.5%;
 }
 
 .desg{
@@ -113,16 +105,16 @@ li {
   font-family: "Space Grotesk";
   font-size: 16px;
   color: #161616;
-  width: 860px;
+  width: 75%;
   line-height: 130%;
 }
 
 .expl{
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 6.2%;
+  margin-bottom: 6.2%;
   display: flex;
-  gap: 168px;
-  padding-left: 80px;
+  gap: 14.2%;
+  padding-left: 6.3%;
 }
 
 .ul{
@@ -131,16 +123,16 @@ li {
 }
 
 .exp{
-  margin-top: -80px;
-  margin-bottom: 33px;
+  margin-top: -6.5%;
+  margin-bottom: 2.6%;
   display: flex;
-  padding-left: 80px;
+  padding-left: 6.3%;
 }
 
 .users{
   display: flex;
-  gap: 60px;
-  margin-left: 80px;
+  gap: 5%;
+  margin-left: 6.4%;
 }
 
 .frank{
@@ -188,14 +180,15 @@ li {
 .cards{
   display: flex;
   flex-direction: column;
-  gap: 86px;
+  gap: 24%;
+  height: 60vh;
 }
 
 .spc,
 .spc2{
   margin-top: 200px;
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: 6.4%;
+  margin-right: 6.4%;
 }
 .spc2{
   margin-top: 0;
@@ -209,7 +202,7 @@ li {
 }
 
 .sub{
-  font-size: 16px;
+  font-size: 20px;
   color: #2E2F2A;
 }
 
@@ -309,10 +302,36 @@ li {
   justify-content: space-between;
 }
 
-.cards{
-  height: 350px;
+.other{
+  margin-bottom: 40px;
 }
 
+.sub-div{
+  margin: 40px 80px 0px 80px;
+}
+
+.fnl{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.final{
+  width: 540px;
+  border-radius: 8px;
+}
+
+.place{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.alg,
+.alg2{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
 
 /* footer section */
 .footer{
